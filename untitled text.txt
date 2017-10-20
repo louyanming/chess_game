@@ -1,8 +1,11 @@
 
-1 A 1-9  B 1-9 c(3,4,5,7)   D 1-9  E (3,4,5,7)  F 1-9 g(3,7) o 1-9
+将项目的所有文件添加到仓库中 git add . 如果想添加某个特定的文件，只需把.换成特定的文件名即可
 
-2 A 1-9  b 1-9	c(1)		d 1-9   E(1)		F 1-9 g(1)	 o 1-9
-3 A 1-9	 b 1-9  c 1-9		d 1-9   E 1-9		F 1-9  g(1-9) o 1-9
+将add的文件commit到仓库 git commit -m "注释语句"
 
+将本地的仓库关联到github上 git remote add origin https://github.com/hanhailong/CustomRatingBar
+1 后面的https链接地址换成你自己的仓库url地址
 
-E用D   G用F   C用 A
+上传github之前，要先pull一下，执行如下命令：git pull origin master
+
+上传代码到github远程仓库. git push -u origin master
